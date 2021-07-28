@@ -1,9 +1,7 @@
 ---
 output: 
-  html_fragment:
-    smart: true
-  github_document: 
-    toc: false
+  html_fragment:  default
+  github_document: default
 ---
 
 In addition to assisting researchers with their research, we also develop tools to assist with various tasks (primarily statistical and reporting). In the spirit of open science, we share these tools on various sharing platforms.
