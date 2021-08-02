@@ -18,7 +18,7 @@ jobs:
       - name: Install rmarkdown
         run: Rscript -e 'install.packages("rmarkdown")'
       - name: Render my document to all types
-        run: Rscript -e 'source(render.R)'
+        run: Rscript -e 'source("render.R")'
       - name: Commit results
         run: |
           git add readme* README*
