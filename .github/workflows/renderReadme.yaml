@@ -2,6 +2,7 @@ on:
   push:
     paths:
       - readme.Rmd
+      - render.R
   workflow_dispatch:
 
 name: Render my document
@@ -17,7 +18,7 @@ jobs:
       - name: Install rmarkdown
         run: Rscript -e 'install.packages("rmarkdown")'
       - name: Render my document to all types
-        run: Rscript -e 'rmarkdown::render("readme.Rmd", output_format = "all")'
+        run: Rscript -e 'source("render.R")'
       - name: Commit results
         run: |
           git add readme* README*
