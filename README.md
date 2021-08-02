@@ -9,7 +9,7 @@ various sharing platforms.
 ## R packages
 
 R is one of the two main statistical programming languages used at CTU
-Bern. During out work, we have developed the following packages for
+Bern. During our work, we have developed the following packages for
 various tasks.
 
 ### [`accrualPlot`](https://github.com/CTU-Bern/accrualPlot) <img src='https://github.com/CTU-Bern/accrualPlot/raw/main/man/figures/sticker.png' align="right" height="150">
