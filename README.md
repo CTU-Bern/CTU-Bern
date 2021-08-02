@@ -1,3 +1,5 @@
+Software developed at CTU Bern
+================
 
 In addition to assisting researchers with their research, we also
 develop tools to assist with various tasks (primarily statistical and
@@ -12,9 +14,9 @@ various tasks.
 
 ### [`accrualPlot`](https://github.com/CTU-Bern/accrualPlot) <img src='https://github.com/CTU-Bern/accrualPlot/raw/main/man/figures/sticker.png' align="right" height="150">
 
-With `accrualPlot`, it is easy to depict recruitment in a manner similar
-to a cumulative incidence curve, as a bar plot or to estimate the time
-point at which a given number of participants will be been enrolled.
+With `accrualPlot`, it is easy to depict recruitment as a cumulative
+incidence curve, a bar plot or to estimate the time point at which a
+given number of participants will be been enrolled.
 
 <img src='https://github.com/CTU-Bern/accrualPlot/raw/main/man/figures/README-unnamed-chunk-3-1.png'>
 
@@ -49,6 +51,9 @@ they go to hospital. The method is described
 approach to calculating and reporting quality indicators (i.e. Key
 Performance Indicators, KPIs).
 
+More information on `kpitools` is available
+[here](https://ctu-bern.github.io/kpitools).
+
 ### [`presize`](https://github.com/CTU-Bern/presize) <!-- <img src='https://github.com/CTU-Bern/presize/man/figures/sticker.png' align="right" height="200"> -->
 
 `presize` is a package for precision based sample size calculations.
@@ -60,9 +65,45 @@ participants would be required to attain a confidence interval so
 wide?’).
 
 `presize` is available on
-[CRAN](https://cran.r-project.org/web/packages/presize) and an
+[CRAN](https://cran.r-project.org/web/packages/presize) and a
 user-friendly, non-programmatic version of the application is available
-[here](https://shiny.ctu.unibe.ch/presize/).
+[here](https://shiny.ctu.unibe.ch/presize/) for those unfamiliar with R.
+
+### R Package universe
+
+CTU Bern also has a so-called
+[universe](https://ctu-bern.r-universe.dev), hosted by
+[ROpenSci](https://ropensci.org/r-universe/), for easier installation of
+our R packages. For packages not on CRAN, and those with versions not
+yet posted to CRAN, it allows the installation of packages as if the
+packages in the universe were a part of CRAN. For instance, `presize` is
+on [CRAN](https://cran.r-project.org/web/packages/presize) but it’s
+development version is on [GitHub](https://github.com/CTU-Bern/presize).
+The CRAN version of the package can be installed with
+`install.packages("presize")`, while the development version must be
+installed with `remotes::install_github("CTU-Bern/presize")`. By using
+the CTU-Bern universe, it is possible to install the development version
+of `presize` via the first syntax. The following code can be used to
+tell R to search the CTU Bern universe for a package first and install
+it from there if available and if not search CRAN instead (or whatever
+repository is mentioned in the second place).
+
+``` r
+options(repos = c(ctu = "https://ctu-bern.r-universe.dev",
+                  cran = "https://cloud.r-project.org"))
+```
+
+`presize`, or any of the packages mentioned above, can then be installed
+into R via e.g. `install.packages("presize")`.
+
+As well as the installation of the packages, the universe also has the
+vignettes and articles compiled
+
+The `options` code above should be put towards the top of a script or
+perhaps in a `.Rprofile` file (typically stored in the Documents or
+project folder and is used for setting your personal defaults). See
+[here](https://support.rstudio.com/hc/en-us/articles/360047157094-Managing-R-with-Rprofile-Renviron-Rprofile-site-Renviron-site-rsession-conf-and-repos-conf)
+for more details.
 
 ## Stata
 
@@ -79,7 +120,7 @@ that primarily use R for their analyses.
 ### [`stata_secutrial`](https://github.com/CTU-Bern/stata_secutrial)
 
 This repository contains code for reading secuTrial data into Stata and
-does a lot of preparatory tasks such as labelling variables and
+does a lot of preparatory tasks such as labeling variables and
 formatting dates.
 
 ## Other packages…
