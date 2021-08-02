@@ -1,7 +1,7 @@
 ---
 title: "Software developed at CTU Bern"
 output: 
-  html_fragment:  default
+  html_fragment: default  
   github_document: default
 ---
 
