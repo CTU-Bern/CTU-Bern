@@ -2,7 +2,7 @@ on:
   push:
     paths:
       - readme.Rmd
-  worflow_dispatch:
+  workflow_dispatch:
 
 name: Render my document
 
