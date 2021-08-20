@@ -54,7 +54,7 @@ Performance Indicators, KPIs).
 More information on `kpitools` is available
 [here](https://ctu-bern.github.io/kpitools).
 
-### [`presize`](https://github.com/CTU-Bern/presize) <!-- <img src='https://github.com/CTU-Bern/presize/man/figures/sticker.png' align="right" height="200"> -->
+### [`presize`](https://github.com/CTU-Bern/presize) <img src='https://github.com/CTU-Bern/presize/raw/master/man/figures/logo.png' align="right" height="150">
 
 `presize` is a package for precision based sample size calculations.
 Rather than having a specific hypothesis to test, a trial might be
