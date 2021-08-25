@@ -45,11 +45,13 @@ they go to hospital. The method is described
 [here](https://onlinelibrary.wiley.com/doi/full/10.1111/1475-6773.13275).
 (The main repository is [here](https://github.com/aghaynes/HSAr))
 
-### [`kpitools`](https://github.com/CTU-Bern/kpitools) <!-- <img src='https://github.com/CTU-Bern/kpitools/man/figures/sticker.png' align="right" height="200"> -->
+### [`kpitools`](https://github.com/CTU-Bern/kpitools) <img src='https://github.com/CTU-Bern/kpitools/raw/main/man/figures/logo.png' align="right" height="150">
 
-`kpitools` is for risk based monitoring. It provides a consistent
-approach to calculating and reporting quality indicators (i.e. Key
-Performance Indicators, KPIs).
+Risk based monitoring was introduced as a GCP topic in the ICH GCP
+E6(R2) revision with the aim of identifying particularly important risks
+to a trial in order to circumvent them earlier and limit their influence
+on a given trial. `kpitools` has tools to assist in the calculation and
+reporting of such risks (i.e. Key Performance Indicators, KPIs).
 
 More information on `kpitools` is available
 [here](https://ctu-bern.github.io/kpitools).
