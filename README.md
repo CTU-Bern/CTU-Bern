@@ -12,7 +12,7 @@ R is one of the two main statistical programming languages used at CTU
 Bern. During our work, we have developed the following packages for
 various tasks.
 
-### [`accrualPlot`](https://github.com/CTU-Bern/accrualPlot) <img src='https://github.com/CTU-Bern/accrualPlot/raw/main/man/figures/sticker.png' align="right" height="150">
+### [`accrualPlot`](https://github.com/CTU-Bern/accrualPlot) <img src='https://github.com/CTU-Bern/accrualPlot/raw/main/man/figures/logo.png' align="right" height="150">
 
 With `accrualPlot`, it is easy to depict recruitment as a cumulative
 incidence curve, a bar plot or to estimate the time point at which a
