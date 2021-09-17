@@ -125,6 +125,11 @@ This repository contains code for reading secuTrial data into Stata and
 does a lot of preparatory tasks such as labeling variables and
 formatting dates.
 
+### [`sts_graph_landmark`](https://github.com/CTU-Bern/sts_graph_landmark)
+
+This stata program facilitates the production of landmark analysis
+plots.
+
 ## Other packages…
 
 CTU Bern was also actively involved in programming the
