@@ -99,7 +99,7 @@ If you have an idea for an application, get in touch via the [consulting
 forms](https://www.ctu.unibe.ch/services/consulting_services/statistical_and_methodological_consulting___support_for_grant_submissions/index_eng.html)
 and we would be happy discuss possibilities.
 
-### R Package universe <img src='https://github.com/CTU-Bern/CTU-Bern/raw/main/logo.png' align="right" height="150">
+### R Package universe <img src='https://github.com/CTU-Bern/universe/raw/main/logo.png' align="right" height="150">
 
 CTU Bern also has a so-called
 [universe](https://ctu-bern.r-universe.dev), hosted by
