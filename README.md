@@ -81,6 +81,9 @@ applications.
 
 We currently host the following applications:
 
+  - [`covid19sm`](https://covid19.ctu.unibe.ch/) Aims to offer monthly
+    monitoring of the impact of the COVID-19 pandemic on the life and
+    health of the Swiss population.
   - [`presize`](https://shiny.ctu.unibe.ch/presize/) is the companion
     app to the `presize` R package detailed above. It provides methods
     for precision based sample size calculation.
@@ -96,7 +99,7 @@ If you have an idea for an application, get in touch via the [consulting
 forms](https://www.ctu.unibe.ch/services/consulting_services/statistical_and_methodological_consulting___support_for_grant_submissions/index_eng.html)
 and we would be happy discuss possibilities.
 
-### R Package universe <img src='https://github.com/CTU-Bern/CTU-Bern/raw/master/logo.png' align="right" height="150">
+### R Package universe <img src='https://github.com/CTU-Bern/CTU-Bern/raw/main/logo.png' align="right" height="150">
 
 CTU Bern also has a so-called
 [universe](https://ctu-bern.r-universe.dev), hosted by
