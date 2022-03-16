@@ -60,8 +60,8 @@ More information on `kpitools` is available
 
 `presize` is a package for precision based sample size calculations.
 Rather than having a specific hypothesis to test, a trial might be
-rather aimed at estimating the magnitude of a effect and want to have an
-estimate with a certain precision (e.g. ‘how wide would my confidence
+rather aimed at estimating the magnitude of an effect and want to have
+an estimate with a certain precision (e.g. ‘how wide would my confidence
 interval be with so-and-so many participants?’, or ‘how many
 participants would be required to attain a confidence interval so
 wide?’).
@@ -71,7 +71,32 @@ wide?’).
 user-friendly, non-programmatic version of the application is available
 [here](https://shiny.ctu.unibe.ch/presize/) for those unfamiliar with R.
 
-### R Package universe
+### Shiny server
+
+Shiny is an extension to the R language for creating interactive web
+applications. For example, such applications could be used to display
+results, perform calculations, or provide simple data exploration
+capabilities. CTU Bern has it’s own shiny server where we can host such
+applications.
+
+We currently host the following applications:
+
+  - [`presize`](https://shiny.ctu.unibe.ch/presize/) is the companion
+    app to the `presize` R package detailed above. It provides methods
+    for precision based sample size calculation.
+  - The SCTO Monitoring platform developed a Risk Based Monitoring Score
+    Calculator for determining the appropriate degree of monitoring for
+    a trial. CTU bern and the SCTO Statistics and Methodology converted
+    this to a simple to use [Shiny
+    application](https://shiny.ctu.unibe.ch/rmbsc/). See the [SCTO
+    site](https://www.sctoplatforms.ch/en/tools/risk-based-monitoring-score-calculator-31.html)
+    for more information.
+
+If you have an idea for an application, get in touch via the [consulting
+forms](https://www.ctu.unibe.ch/services/consulting_services/statistical_and_methodological_consulting___support_for_grant_submissions/index_eng.html)
+and we would be happy discuss possibilities.
+
+### R Package universe <img src='https://github.com/CTU-Bern/CTU-Bern/raw/master/logo.png' align="right" height="150">
 
 CTU Bern also has a so-called
 [universe](https://ctu-bern.r-universe.dev), hosted by
