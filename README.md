@@ -20,7 +20,7 @@ given number of participants will be been enrolled.
 
 <img src='https://github.com/CTU-Bern/accrualPlot/raw/main/man/figures/README-unnamed-chunk-3-1.png'>
 
-More information on `accrualPlot` is available
+`accrualPlot` is available from [CRAN](https://CRAN.R-project.org/package=accrualPlot). More information on `accrualPlot` is available
 [here](https://ctu-bern.github.io/accrualPlot).
 
 ### [`btabler`](https://github.com/CTU-Bern/btabler) <img src='https://github.com/CTU-Bern/btabler/raw/main/man/figures/sticker.png' align="right" height="150">
