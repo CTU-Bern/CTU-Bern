@@ -43,6 +43,12 @@ More information on `kpitools` is available [here](https://ctu-bern.github.io/kp
 
 `presize` is available on [CRAN](https://cran.r-project.org/web/packages/presize) and a user-friendly, non-programmatic version of the application is available [here](https://shiny.ctu.unibe.ch/presize/) for those unfamiliar with R.
 
+### [`redcaptools`](https://github.com/CTU-Bern/redcaptools)
+
+`redcaptools` provides tools to support working with REDCap datasets. It contains functions for exporting data through the REDCap Application Programming Interface, functions for preparing data for downstream use (e.g. adding labels, converting strings to dates). It also provides methods to export data in a form based manner (i.e. each instrument is a separate data frame) and to split a standard export into forms.
+
+More information on `redcaptools` is available [here](https://ctu-bern.github.io/redcaptools).
+
 ### Shiny server
 
 Shiny is an extension to the R language for creating interactive web applications. For example, such applications could be used to display results, perform calculations, or provide simple data exploration capabilities. CTU Bern has it's own shiny server where we can host such applications. 
