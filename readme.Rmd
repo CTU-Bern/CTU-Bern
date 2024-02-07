@@ -49,7 +49,7 @@ More information on `kpitools` is available [here](https://ctu-bern.github.io/kp
 
 More information on `redcaptools` is available [here](https://ctu-bern.github.io/redcaptools).
 
-### [`SwissASR`](https://github.com/CTU-Bern/redcaptools)
+### [`SwissASR`](https://github.com/CTU-Bern/redcaptools) <img src='https://github.com/CTU-Bern/SwissASR/raw/main/man/figures/logo.png' align="right" height="150">
 
 Annual Safety Reports (ASR) are an important part of the reporting obligations for Clinical Trials. They are also time consuming to prepare. `SwissASR` provides a simple way to fill out the ASR in an automated manner. Prepare the data in the manner expected by `SwissASR`, and you can easily rerun the code the next year, with minimal modification.
 
