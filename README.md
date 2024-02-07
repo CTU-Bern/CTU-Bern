@@ -45,6 +45,10 @@ they go to hospital. The method is described
 [here](https://onlinelibrary.wiley.com/doi/full/10.1111/1475-6773.13275).
 (The main repository is [here](https://github.com/aghaynes/HSAr))
 
+Note: `HSAr` was written using packages which have since been
+deprecated. This makes using the package more difficult (if at all
+possible). The future of the package is under consideration.
+
 ### [`kpitools`](https://github.com/CTU-Bern/kpitools) <img src='https://github.com/CTU-Bern/kpitools/raw/main/man/figures/logo.png' align="right" height="150">
 
 Risk based monitoring was introduced as a GCP topic in the ICH GCP
