@@ -83,7 +83,7 @@ separate data frame) and to split a standard export into forms.
 More information on `redcaptools` is available
 [here](https://ctu-bern.github.io/redcaptools).
 
-### [`SwissASR`](https://github.com/CTU-Bern/redcaptools)
+### [`SwissASR`](https://github.com/CTU-Bern/redcaptools) <img src='https://github.com/CTU-Bern/SwissASR/raw/main/man/figures/logo.png' align="right" height="150">
 
 Annual Safety Reports (ASR) are an important part of the reporting
 obligations for Clinical Trials. They are also time consuming to
