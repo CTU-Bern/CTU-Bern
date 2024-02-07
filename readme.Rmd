@@ -49,6 +49,12 @@ More information on `kpitools` is available [here](https://ctu-bern.github.io/kp
 
 More information on `redcaptools` is available [here](https://ctu-bern.github.io/redcaptools).
 
+### [`SwissASR`](https://github.com/CTU-Bern/redcaptools)
+
+Annual Safety Reports (ASR) are an important part of the reporting obligations for Clinical Trials. They are also time consuming to prepare. `SwissASR` provides a simple way to fill out the ASR in an automated manner. Prepare the data in the manner expected by `SwissASR`, and you can easily rerun the code the next year, with minimal modification.
+
+Visit the [`SwissASR` package website](https://ctu-bern.github.io/SwissASR) or [Swiss Clinical Trial Organizations Statistics and Methodology Platform website](https://swissclinicaltrialorganisation.github.io/stats_platform/safetyreporting.html) for more information.
+
 ### Shiny server
 
 Shiny is an extension to the R language for creating interactive web applications. For example, such applications could be used to display results, perform calculations, or provide simple data exploration capabilities. CTU Bern has it's own shiny server where we can host such applications. 
