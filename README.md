@@ -37,11 +37,10 @@ More information on `btabler` is available
 ### [`HSAr`](https://github.com/CTU-Bern/HSAr)
 
 `HSAr` is a by-product of CTU Bern’s involvement in the SNFs [Smarter
-Health Case National Research Programme
-(NRP74)](http://www.nfp74.ch/en/Pages/Home.aspx). It provides an
-approach for creating so-called Hospital Service Areas - aggregated
-areas supposed to reflect the patterns of flow from people live to where
-they go to hospital. The method is described
+Health Case National Research Programme (NRP74)](http://www.nfp74.ch).
+It provides an approach for creating so-called Hospital Service Areas -
+aggregated areas supposed to reflect the patterns of flow from people
+live to where they go to hospital. The method is described
 [here](https://onlinelibrary.wiley.com/doi/full/10.1111/1475-6773.13275).
 (The main repository is [here](https://github.com/aghaynes/HSAr))
 
@@ -122,12 +121,12 @@ We currently host the following applications:
   Calculator for determining the appropriate degree of monitoring for a
   trial. CTU bern and the SCTO Statistics and Methodology converted this
   to a simple to use [Shiny
-  application](https://shiny.ctu.unibe.ch/rmbsc/). See the [SCTO
+  application](https://shiny.ctu.unibe.ch/app/rmbsc/). See the [SCTO
   site](https://www.sctoplatforms.ch/en/tools/risk-based-monitoring-score-calculator-31.html)
   for more information.
 
 If you have an idea for an application, get in touch via the [consulting
-forms](https://www.ctu.unibe.ch/services/consulting_services/statistical_and_methodological_consulting___support_for_grant_submissions/index_eng.html)
+form](https://www.ctu.unibe.ch/about_us/contact/forms/contact_us___statistics/index_eng.html)
 and we would be happy discuss possibilities.
 
 ### R Package universe <img src='https://github.com/CTU-Bern/ctu-bern.r-universe.dev/raw/main/logo.png' align="right" height="150">
