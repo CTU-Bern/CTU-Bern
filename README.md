@@ -121,7 +121,7 @@ We currently host the following applications:
   Calculator for determining the appropriate degree of monitoring for a
   trial. CTU bern and the SCTO Statistics and Methodology converted this
   to a simple to use [Shiny
-  application](https://shiny.ctu.unibe.ch/app/rmbsc/). See the [SCTO
+  application](https://shiny.ctu.unibe.ch/app/rbmsc/). See the [SCTO
   site](https://www.sctoplatforms.ch/en/tools/risk-based-monitoring-score-calculator-31.html)
   for more information.
 
