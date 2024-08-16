@@ -23,7 +23,7 @@ given number of participants will be been enrolled.
 More information on `accrualPlot` is available
 [here](https://ctu-bern.github.io/accrualPlot).
 
-### [`btabler`](https://github.com/CTU-Bern/btabler) <img src='https://github.com/CTU-Bern/btabler/raw/main/man/figures/sticker.png' align="right" height="150">
+### [`btabler`](https://github.com/CTU-Bern/btabler) <img src='https://github.com/CTU-Bern/btabler/raw/main/man/figures/logo.png' align="right" height="150">
 
 `btabler` is a wrapper around the
 [`xtable`](https://cran.r-project.org/web/packages/xtable/) package
